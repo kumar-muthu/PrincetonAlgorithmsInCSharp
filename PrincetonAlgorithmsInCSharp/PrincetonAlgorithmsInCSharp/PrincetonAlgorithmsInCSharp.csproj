@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Part-1\Searching\2.BinarySearchTrees\BinarySearchTrees.cs" />
+    <Compile Include="Part-1\Searching\3.BalancedSearchTrees\LeftLeaningRedBlackTree.cs" />
     <Compile Include="Part-1\Sorting\4.PriorityQueues\BinaryHeap.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

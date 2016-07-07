@@ -10,13 +10,21 @@ namespace PrincetonAlgorithmsInCSharp
     {
         static void Main(string[] args)
         {
-            BinaryHeap heap = new BinaryHeap(new int[] { 8, 5, 7, 6, 4, 3, 2, 1 });
-            heap.Sort();
+            BinarySearchTrees tree = new BinarySearchTrees();
+            tree.Put(1, 100);
+            tree.Put(3, 300);
+            tree.Put(4, 400);
+            tree.Put(2, 200);
 
-            foreach (var item in heap.items)
+            Console.WriteLine(tree.Get(2));
+
+            tree.Delete(2);
+
+            foreach (var item in tree.keys())
             {
                 Console.WriteLine(item);
             }
+
         }
     }
 }
